@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiki's Lashes</title>
+    
+    <style>
+        h1 {
+            text-align: center;
+        }
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+            .button-container {
+    text-align: center;
+}
+
+        }
+        
+        header {
+            background-color: #FFB6C1; /* Light pink */
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #000; /* Black */
+        }
+        
+        nav ul li a:hover {
+            color: #FF69B4; /* Hot pink */
+        }
+        
+        /* Dropdown menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #000; /* Black */
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Resize the logo */
+        header img {
+            width: 200px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .home-page-text {
+        text-align: center;
+        margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .box {
+            flex-basis: 48%; /* Adjust this value as needed */
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        .pink-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: pink;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px; /* Adjust spacing between buttons */
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kiki's Lashes</h1>
+        <nav>
+            <ul>
+                <li><a href="Kiki.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Services</a>
+                    <div class="dropdown-content">
+                        <a href="lash-extensions.html">Lash Extensions</a>
+                        <a href="lash-lifts.html">Lash Lifts</a>
+                        <a href="lash-tints.html">Lash Tints</a>
+                        <a href="removals.html">Removals</a>
+                        <a href="Eyebrow Tinting.html">Eyebrow Tinting</a>
+                        <a href="waxing.html">Waxing</a>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://kikis-lashes.square.site/">Book an Appointment</a></li>
+                
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+        <img src="logo.png" alt="Kiki's Lashes Logo">
+    </header>
+    
+    <div class="container">
+        <div class="box">
+            <div class="home-page-text">
+                <p>Love lashes? Love good prices? You have found the place! Do your eyelashes need love? Natural or extensions , I've got you! </p>
+            </div>
+        </div>
+        <div class="box">
+            <p>Do your eyebrows need trimming, waxing, or tinting?  Book an appointment or contact me today for an inquiry! Keep up to date with the website, Instagram, and Facebook posts.</p>
+        </div>
+    </div>
+    <h1>Contact Me</h1>
+    <div class="button-container">
+        <a href="mailto:kikislashes96@gmail.com" class="pink-button">Email</a>
+        <a href="https://www.facebook.com/profile.php?id=61558754806201" class="pink-button" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/kikislashes96" class="pink-button" target="_blank">Instagram</a>
+    </div>
+    
+
+</body>
+</html>
